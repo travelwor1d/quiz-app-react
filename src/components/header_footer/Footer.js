@@ -7,7 +7,7 @@ const Footer = () => {
             <Fade delay={500}>
                 <div className="font_righteous footer_logo_venue">React Quiz</div>
                 <div className="footer_copyright">
-                Made with Love By Jatin Varlyani
+                Made with @Travel
                 </div>
             </Fade>
         </footer>
