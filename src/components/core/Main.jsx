@@ -45,9 +45,9 @@ class Main extends Component {
             questionAnswered: true
         })
     }
-
+    
     nextQuestion() {
-        let { count, total, score } = this.state;
+        let { count, total} = this.state;
 
         if(count === total){
             this.setState({
@@ -74,11 +74,6 @@ class Main extends Component {
             score: this.state.score + 1
         });
     }
-    handleRemoveColor(){
-        this.setState({
-
-        })
-    }
 
   render() {
 
@@ -94,7 +89,7 @@ class Main extends Component {
         />
         
         <div className="row">
-            <div className="col-lg-12 col-md-6">
+            <div className="col-lg-12 col-md-10">
                 <div id="question">
                     <h4 className="bg-light">Question {count}/{total}</h4>
                     <p>{question}</p>
